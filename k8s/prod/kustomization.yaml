@@ -7,8 +7,8 @@ bases:
   - ../base
 patchesStrategicMerge:
   - patch-deploy-replicas.yaml
-resources:
-  - route.yaml
+# resources:
+#   - ingress.yaml
 patchesStrategicMerge:
   - patch-deploy-replicas.yaml
 images:

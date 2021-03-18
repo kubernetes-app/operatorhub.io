@@ -3,5 +3,6 @@ kind: Kustomization
 commonLabels:
   app: operatorhubio
 resources:
+  - namespace.yaml
   - deployment.yaml
   - service.yaml
